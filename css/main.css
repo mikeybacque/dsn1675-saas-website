@@ -35,3 +35,7 @@ html {
 .round {
   border-radius: 10px;
 }
+
+.huge {
+  font-size: 3rem;
+}
