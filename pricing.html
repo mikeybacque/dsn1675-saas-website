@@ -14,10 +14,15 @@
 </head>
 <body class="text-center">
 
-<header class="grid">
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+<header class="grid" role="banner">
   <img src="" alt="">
   <h1 class="unit xs-1 light-grey island push-0"><a href="index.html">FundFriend</a></h1>
-  <nav class="unit xs-1 text-center">
+  <nav class="unit xs-1 text-center" role="navigation" id="nav">
     <ol class="list-group list-group--inline grey gutter-1-2 pad-t pad-b push-0">
       <li class="gutter-1-4 micro"><a href="tour.html">TOUR</a></li>
       <li class="gutter-1-4 micro"><a href="pricing.html">PRICING</a></li>
@@ -26,7 +31,7 @@
   </nav>
 </header>
 
-<main>
+<main role="main" id="main">
 
 <div class="pad-b">
   <img src="http://placehold.it/2400x1200" alt="" class="img-flex">
@@ -94,7 +99,7 @@
 
 <footer class="light-grey pad-t pad-b micro">
   <div>
-    <p class="push-0">© 2015 FundFriend, Inc. All rights reserved. <br>
+    <p class="push-0" role="contentinfo">© 2015 FundFriend, Inc. All rights reserved. <br>
     Terms, conditions, features, availability, pricing, fees, service and support options subject to change without notice.</p>
   <div>
 </footer>
