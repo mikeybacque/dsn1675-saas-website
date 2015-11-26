@@ -18,10 +18,11 @@ html {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
-.light-grey {
-  background-color: #eee;
+.blue {
+  background-color: #0029A4;
 }
 
 .grey {
@@ -32,10 +33,35 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-.round {
-  border-radius: 10px;
-}
-
 .huge {
   font-size: 3rem;
 }
+
+.billboard {
+  top: 5%;
+  color: #fff;
+}
+
+.billboard-img {
+  width: 200%;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.center {
+ margin-left: -50%
+  }
+
+
+
+
+
+
+
+
+
+
+
+
