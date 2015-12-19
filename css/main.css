@@ -25,8 +25,16 @@ a {
   background-color: #0029A4;
 }
 
+.black {
+  background-color: #000;
+}
+
 .grey {
-  background-color: #bbb;
+  background-color: #333;
+}
+
+.light-grey {
+  background-color: #ccc;
 }
 
 html {
@@ -40,10 +48,11 @@ html {
 .billboard {
   top: 5%;
   color: #fff;
+  padding: 5%;
 }
 
 .billboard-img {
-  width: 200%;
+  width: 300%;
 }
 
 h2 {
@@ -54,14 +63,37 @@ h2 {
  margin-left: -50%
   }
 
+.logo-size {
+  width: 10em;
 
+}
 
+.clip {
+  width: 100%; 
+  overflow: hidden;
+}
 
+@media only screen and (min-width: 20em) {
+  
+  .big {
+    font-size: 2rem;
+  }
+}
 
+  .clip {
+  width: 100%; 
+  overflow: hidden;
+}
 
+  .billboard-img {
+  width: 140%;
+}
 
+}
 
+@media only screen and (min-width: 38em) {
 
-
-
+  .grey {
+    background-color: #000;
+  }
 
